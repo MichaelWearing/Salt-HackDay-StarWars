@@ -1,0 +1,19 @@
+body {
+  background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg');
+
+/*   background-color: grey;
+ */}
+
+* {
+margin: 0px;
+padding: 0px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+}

@@ -1,0 +1,67 @@
+.start-page-body {
+/*     background: rgb(20,20,20);
+ */    overflow: hidden;
+/*     margin: 50% 0 0 0 ;
+ */    position: relative;
+}
+
+.start-page-body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(20,20,20,1) 5%, rgba(20,20,20,0) 100%);
+}
+
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    perspective: 450px;
+}
+
+.scroll-text {
+    color: #ffc909;
+    font-size: 6vh;
+    line-height: 1.7em;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
+    animation: scroll 160s linear forwards;
+}
+
+.first-header, .second-header {
+    text-align: center;
+    margin-bottom: 46vh;
+}
+
+.first-header{
+    font-size: 30vh;
+    line-height: 1;
+    margin-top: 65%;
+}
+.second-header{
+    font-size: 13vh;
+    line-height: 1;
+}
+.first-p-tag{
+    line-height: 15vh;
+    font-size: 7vh;
+    margin-bottom: 25vh
+}
+.second-p-tag{
+    line-height: 15vh;
+    font-size: 7vh;
+    margin-bottom: 25vh
+}
+.finish-p-tag{
+    line-height: 15vh;
+    font-size: 7vh;
+}
+
+@keyframes scroll {
+    from { top: 0; transform: translateZ(0) rotateX(20deg) }
+    to { top: -7500px;  transform: translateZ(-2500px) rotateX(21deg) }
+}

@@ -1,0 +1,41 @@
+.planets-header {
+    font-size: 100px;
+    color: #000000;
+    text-shadow: -5px 0 #ffe81f, 0 5px #ffe81f, 5px 0 #ffe81f, 0 -5px #ffe81f;
+    margin-bottom: 11vh;
+}
+
+.planet-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-planets:hover {
+    transform: scale(1.05);
+    outline: none;
+}
+
+.tatooine {
+    margin: 0px;
+    padding: 0px;
+    width: 50vh;
+}
+
+.alderaan {
+    width: 40vh;
+    height: 43vh;
+    margin-top: 4vh;
+}
+.naboo {
+    width: 38vh;
+    height: 41vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+.kamino {
+    width: 40vh;
+    height: 40vh;
+    margin-top: 6vh;
+    margin-left: 4vh;
+}
